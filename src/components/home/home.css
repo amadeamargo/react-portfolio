@@ -1,0 +1,36 @@
+#intro {
+    width: 40vw;
+    height: 35vh;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+#intro-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 17%;
+    left: 10%;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#caption {
+    position: relative;
+    top: 45%;
+    left: 20%;
+}
+
+img {
+    height: 80vh;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    background:transparent
+    
+}    
+

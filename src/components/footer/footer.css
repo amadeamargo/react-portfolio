@@ -1,0 +1,37 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 6vh;
+    text-align: center;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  #linkedin{
+    color: #3B5998;
+  }
+
+  #github{
+      color:rgb(27, 25, 25);
+  }
+
+  #instagram{
+      color:rgb(114, 72, 114);
+  }
+
+  #resume{
+      color: rgb(44, 41, 41);
+  }
+  

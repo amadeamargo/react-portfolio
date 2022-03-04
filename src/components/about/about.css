@@ -1,0 +1,44 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+.about-container{
+    position: absolute;
+    top: 17%;
+    border: solid;
+    border-color: rgb(53, 51, 51);
+    border-width: 3px;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 20px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    left: 52%;
+    top: -75%;
+    width: 25vw;
+    line-height: 4vh;
+}
+
+#about-me{
+    margin-bottom: 10%;
+}
+
+#my-passions{
+    margin-top: 10%;
+}
+
+
+
+.profile-pic {
+    background:transparent;
+    height: 63vh;
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
