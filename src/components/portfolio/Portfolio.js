@@ -1,9 +1,10 @@
+import ProjectList from '../../projectList/ProjectList'
 
 export default function Portfolio (){
 
     return (
         <>
-        <h1>Portfolio page</h1>
+        <ProjectList />
         </>
     )
 }

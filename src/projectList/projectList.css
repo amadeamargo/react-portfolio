@@ -1,0 +1,23 @@
+.pl-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pl-title {
+    font-size: 7vh;
+    margin-top: 1.5vh;
+}
+
+.pl-caption{
+    font-size: 3vh;
+    margin-bottom: 3vh;
+    margin-top: 1.5vh;
+}
+
+.pl-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+}
