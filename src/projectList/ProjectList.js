@@ -1,5 +1,6 @@
 import Project from "../components/project/Project"
 import './projectList.css'
+import { projects } from "../data"
 
 export default function ProjectList() {
 
@@ -12,12 +13,9 @@ export default function ProjectList() {
 
                 </div>
                 <div className="pl-list">
-                    <Project />
-                    <Project />
-                    <Project />
-                    <Project />
-                    <Project />
-                    <Project />
+                    {projects.map((item) => (
+                        <Project key={item.id} img={item.img} />
+                    ))}
                 </div>
             </div>
         </>
