@@ -1,17 +1,18 @@
 import './project.css'
 
-export default function Project() {
+export default function Project({ img, link }) {
     return (
         <>
-           <a>
-                <div className="project-card">
-                    <div className="browser">
-                        <div className="circle"></div>
-                        <div className="circle"></div>
-                        <div className="circle"></div>
-                        </div>
+            <div className="project-card">
+                <div className="browser">
+                    <div className="circle"></div>
+                    <div className="circle"></div>
+                    <div className="circle"></div>
                 </div>
-            </a>
+                <a href={link}>
+                    <img src={img} className="p-img" />
+                </a>
+            </div>
         </>
     )
 }

@@ -14,7 +14,7 @@ export default function ProjectList() {
                 </div>
                 <div className="pl-list">
                     {projects.map((item) => (
-                        <Project key={item.id} img={item.img} />
+                         <Project key={item.id} img={item.img} link={item.link}/>
                     ))}
                 </div>
             </div>
