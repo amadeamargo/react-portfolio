@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route} from 'react-router-dom'
 import GlobalStyle from './globalStyles';
-
+import {useState} from 'react'
 
 import Header from './components/header/Header'
 import Home from './components/home/Home'
@@ -12,10 +12,12 @@ import Footer from './components/footer/Footer'
 
 
 function App() {
+  const [show, setShow] = useState(true)
   return ( 
     <>
     <GlobalStyle /> 
     <Header />
+    {/* <Home/> */}
       <Routes>
         <Route path='/'  element={<Home />} ></Route>
         <Route path='/about' element={<About />} ></Route>

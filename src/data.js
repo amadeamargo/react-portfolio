@@ -1,4 +1,5 @@
 import passwordGenerator from './assets/projects/password-generator.png'
+
 import codeQuiz from './assets/projects/code-quiz.png'
 import muvd from './assets/projects/muvd.png'
 import proBonoPals from './assets/projects/pro-bono-pals.png'

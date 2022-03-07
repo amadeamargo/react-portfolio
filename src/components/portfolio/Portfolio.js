@@ -1,4 +1,4 @@
-import ProjectList from '../../projectList/ProjectList'
+import ProjectList from '../projectList/ProjectList'
 
 export default function Portfolio (){
 
