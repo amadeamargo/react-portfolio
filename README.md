@@ -19,4 +19,12 @@ I would love to hear about your vision for your next website! Click on the Conta
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Deployed Website
+
+This webpage was deployed using GitHub Pages. Link to the live application:
+ https://amadeamargo.github.io/react-portfolio/
+ 
+
+
+
 
